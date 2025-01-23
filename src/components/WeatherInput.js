@@ -6,6 +6,7 @@ function WeatherInput({ onSearch }) {
   const handleSearch = () => {
     if (city.trim()) {
       onSearch(city);
+      setCity(""); // Limpa o campo após buscar
     }
   };
 
