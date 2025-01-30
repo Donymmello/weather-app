@@ -11,11 +11,11 @@ function App() {
   const [forecastData, setForecastData] = useState(null); // Previsao estendida
   
 
-  const API_KEY = "Insert_ur_key_here"; // Insira sua chave de API aqui
+  const apiKey = process.env.REACT_APP_API_KEY; // Insira sua chave de API aqui
 
   const fetchWeather = async (city) => {
-    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`;
-    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${API_KEY}`;
+    const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+    const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
 
 
     try {
@@ -44,7 +44,7 @@ function App() {
   };
 
   const fetchWeatherByLocation = async (lat, lon) => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${API_KEY}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
     try {
       const response = await fetch(url);
