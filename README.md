@@ -100,7 +100,7 @@ weather-app/
    git checkout -b minha-feature
    ```
 3. Faça suas alterações e crie um pull request.
-4. 
+
 👨‍💻 Autor
 Desenvolvido por [Sidonio Aly Antonio]
 🎓 Engenheiro em Tecnologias de Informação e Comunicação
