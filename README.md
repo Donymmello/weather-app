@@ -100,6 +100,13 @@ weather-app/
    git checkout -b minha-feature
    ```
 3. Faça suas alterações e crie um pull request.
+4. 
+👨‍💻 Autor
+Desenvolvido por [Sidonio Aly Antonio]
+🎓 Engenheiro em Tecnologias de Informação e Comunicação
+📧 sidonioaly@gamil.com
+🔗 (https://www.linkedin.com/in/sidonio-aly-antonio-3ab720196)
+🌍 Moçambique
 
 ## Licença
 Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
